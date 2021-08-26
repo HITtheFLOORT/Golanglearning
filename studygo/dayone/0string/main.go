@@ -14,6 +14,10 @@ func Chinesejudge(s string)bool{
 	}
 }
 func main() {
+	a:=1
+	b:=2
+	a,b=b,a
+	fmt.Println(a,b)
 	str:="D:\\workspace\\文件夹"
 	str2:=`D:\\workspace`
 	str=str+str2
