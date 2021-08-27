@@ -38,7 +38,10 @@ func main() {
 	fmt.Println(string(s2))
 	for _,value:=range "nihao你好"{
 		if Chinesejudge(string(value)){
-			fmt.Print(string(value))
+			fmt.Println(string(value))
 		}
 	}
+	ifo:="阿斯顿简洁大方"
+	ifo2:=[]rune(ifo)
+	fmt.Println((string)(ifo2[1]))
 }
