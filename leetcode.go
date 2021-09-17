@@ -54,3 +54,10 @@ func isSameTree(p *TreeNode, q *TreeNode) bool {
 	}
 	return isSameTree(p.Left, q.Left) && isSameTree(p.Right, q.Right)
 }
+func singleNumber(nums []int) int {
+	var a=nums[0]
+	for _,val :=range nums{
+		a^=val
+	}
+	return a
+}
